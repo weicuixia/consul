@@ -1,0 +1,14 @@
+.idea
+.svn
+.project
+.buildpath
+.settings
+.php_cs.cache
+composer.lock
+
+*.log
+*.bak
+
+/vendor
+/log
+

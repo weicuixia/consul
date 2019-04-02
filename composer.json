@@ -1,0 +1,38 @@
+{
+    "name": "oms-phplib/oms-consul",
+    "type": "library",
+    "description": "SDK to talk with consul API",
+    "homepage": "http://gitlab.egomsl.com/oms-phplib/oms-consul",
+    "keywords": [
+        "oms-consul"
+    ],
+    "authors": [
+        {
+            "name": "katherine",
+            "email": "weicuixia@globalegrow.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "phpunit/phpunit": "~5.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpLib\\Consul\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "secure-http": false
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit;",
+        "phpcs": "./vendor/bin/php-cs-fixer fix -v --diff --dry-run;",
+        "phpcs-fix": "./vendor/bin/php-cs-fixer fix -v;"
+    }
+}
