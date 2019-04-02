@@ -1,8 +1,8 @@
 <?php
 /**
  * consul 获取配置示例
- * @package PhpLib\Consul
- * @author katherine<weicuixia@globalegrow.com>
+ * @package Weicuixia\Consul
+ * @author katherine<weicuixiaoo@163.com>
  * @date 2019/02/19
  */
 

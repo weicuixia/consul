@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpLib\Consul;
+namespace Weicuixia\Consul;
 
 use GuzzleHttp\Client as GuzzleClient;
-use PhpLib\Consul\Services\Health;
-use PhpLib\Consul\Services\HealthInterface;
-use PhpLib\Consul\Services\KV;
-use PhpLib\Consul\Services\KVInterface;
+use Weicuixia\Consul\Services\Health;
+use Weicuixia\Consul\Services\HealthInterface;
+use Weicuixia\Consul\Services\KV;
+use Weicuixia\Consul\Services\KVInterface;
 
 class Factory
 {

@@ -9,12 +9,12 @@ composer.json
     {
         "repositories": [
             {
-                "url": "http://gitlab.egomsl.com/oms-phplib/oms-consul.git",
+                "url": "https://github.com/weicuixia/consul.git",
                 "type": "git"
             }
         ],
         "require": {
-            "oms-phplib/oms-consul": "^1.0"
+            "weicuixia/consul": "^1.0"
         }
     }
 
@@ -23,24 +23,24 @@ composer.json
 执行命令：
     
 ```
-    composer require oms-phplib/oms-consul
+    composer require weicuixia/consul
     
 ```
 # 三、示例
 
 ```
 // 编辑项目中的 bootstrap/app.php，注册 provider:
-$app->register(\PhpLib\Consul\ConsulServiceProvider::class);
+$app->register(\Weicuixia\Consul\ConsulServiceProvider::class);
 
 Usage
 
 The simple way to use this SDK, is to instantiate the service factory:
 
-$factory = new PhpLib\Consul\Factory();
+$factory = new Weicuixia\Consul\Factory();
 
 Then, a service could be retrieve from this factory:
 
-$kv = $factory->get(\PhpLib\Consul\KV\KVInterface::class);
+$kv = $factory->get(\Weicuixia\Consul\Services\KVInterface::class);
 
 Then, a service expose few methods mapped from the consul API:
 

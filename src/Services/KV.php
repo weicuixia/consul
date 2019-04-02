@@ -1,8 +1,8 @@
 <?php
-namespace PhpLib\Consul\Services;
+namespace Weicuixia\Consul\Services;
 
-use PhpLib\Consul\Client;
-use PhpLib\Consul\OptionsResolver;
+use Weicuixia\Consul\Client;
+use Weicuixia\Consul\OptionsResolver;
 
 class KV implements KVInterface
 {

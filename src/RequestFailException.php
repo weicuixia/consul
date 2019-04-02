@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLib\Consul;
+namespace Weicuixia\Consul;
 
 class RequestFailException extends \RuntimeException
 {

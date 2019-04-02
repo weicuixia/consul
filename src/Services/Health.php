@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLib\Consul\Services;
+namespace Weicuixia\Consul\Services;
 
-use PhpLib\Consul\Client;
-use PhpLib\Consul\OptionsResolver;
+use Weicuixia\Consul\Client;
+use Weicuixia\Consul\OptionsResolver;
 
 class Health implements HealthInterface
 {
@@ -27,7 +27,7 @@ class Health implements HealthInterface
      *
      * @param $node
      * @param array $options
-     * @return \PhpLib\Consul\ConsulResponse
+     * @return \Weicuixia\Consul\ConsulResponse
      */
     public function node($node, array $options = array())
     {
@@ -42,7 +42,7 @@ class Health implements HealthInterface
      *
      * @param $service
      * @param array $options
-     * @return \PhpLib\Consul\ConsulResponse
+     * @return \Weicuixia\Consul\ConsulResponse
      */
     public function checks($service, array $options = array())
     {
@@ -57,7 +57,7 @@ class Health implements HealthInterface
      *
      * @param $service
      * @param array $options
-     * @return \PhpLib\Consul\ConsulResponse
+     * @return \Weicuixia\Consul\ConsulResponse
      */
     public function service($service, array $options = array())
     {
@@ -72,7 +72,7 @@ class Health implements HealthInterface
      *
      * @param $state
      * @param array $options
-     * @return \PhpLib\Consul\ConsulResponse
+     * @return \Weicuixia\Consul\ConsulResponse
      */
     public function state($state, array $options = array())
     {

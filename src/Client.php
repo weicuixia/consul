@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLib\Consul;
+namespace Weicuixia\Consul;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface as HttpClientInterface;

@@ -2,14 +2,14 @@
 /**
  * consul KV 配置
  * @package App\Utils
- * @author katherine<weicuixia@globalegrow.com>
+ * @author katherine<weicuixiaoo@163.com>
  * @date 2019/03/30
  */
 
 namespace App\Utils;
 
-use PhpLib\Consul\Factory;
-use PhpLib\Consul\KV\KVInterface;
+use Weicuixia\Consul\Factory;
+use Weicuixia\Consul\KV\KVInterface;
 
 class ConsulKvUtil
 {

@@ -1,5 +1,5 @@
 <?php
-namespace PhpLib\Consul\Services;
+namespace Weicuixia\Consul\Services;
 
 interface KVInterface
 {

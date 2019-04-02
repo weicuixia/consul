@@ -1,15 +1,15 @@
 {
-    "name": "oms-phplib/oms-consul",
+    "name": "weicuixia/consul",
     "type": "library",
     "description": "SDK to talk with consul API",
-    "homepage": "http://gitlab.egomsl.com/oms-phplib/oms-consul",
+    "homepage": "https://github.com/weicuixia/consul",
     "keywords": [
         "oms-consul"
     ],
     "authors": [
         {
             "name": "katherine",
-            "email": "weicuixia@globalegrow.com"
+            "email": "weicuixiaoo@163.com"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpLib\\Consul\\": "src"
+            "Weicuixia\\Consul\\": "src"
         }
     },
     "config": {
